@@ -1,0 +1,124 @@
+.header-container {
+    background-color: rgb(69, 69, 69);
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    padding-inline: 4rem;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 15px;
+
+    .logo {
+        i {
+            font-size: 25px;
+        }
+
+        span {
+            margin-left: 0.5rem;
+            font-weight: 600;
+            font-size: 23px;
+            font-family: system-ui;
+        }
+    }
+
+    .address {
+        display: flex;
+        justify-content: center;
+        padding-top: 9px;
+        margin-left: 1.5rem;
+        font-family: system-ui;
+
+        span {
+            &:first-child {
+                font-weight: 600;
+                font-size: 14px;
+            }
+
+            &:nth-child(2) {
+                font-weight: 300;
+                margin-left: 10px;
+                font-size: 13px;
+            }
+        }
+
+        i {
+            font-size: 20px;
+            margin-left: 5px;
+        }
+    }
+
+    .search {
+        display: inline-block;
+        position: relative;
+        color: #aaa;
+        font-size: 16px;
+        margin-left: 13rem;
+    }
+
+    .search input {
+        width: 250px;
+        height: 38px;
+        background: white;
+        border: 1px solid #aaa;
+        border-radius: 20px;
+        text-indent: 32px;
+        padding-block: 5px;
+    }
+
+    .search .fa-search {
+        position: absolute;
+        top: 11px;
+        left: 10px;
+        left: auto;
+        right: 13px;
+        color: rgb(51, 189, 140);
+    }
+
+    .profileIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1.5rem;
+        height: 38px;
+        width: 38px;
+        border-radius: 50%;
+        background: white;
+
+        i {
+            font-size: 25px;
+            color: rgb(51, 189, 140);
+        }
+    }
+
+    .other-info {
+        margin-left: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 38px;
+            width: 38px;
+            border-radius: 50%;
+            background-color: rgb(196, 242, 227);
+        }
+
+        i {
+            color: rgb(49, 189, 142);
+            font-size: 18px;
+        }
+
+        button {
+            color: rgb(49, 189, 142);
+            border-radius: 20px;
+            background: white;
+            padding: 7px 11px;
+            font-size: 15px;
+        }
+    }
+}

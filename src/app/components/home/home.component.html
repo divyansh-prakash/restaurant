@@ -1,0 +1,135 @@
+<div class="hero-section">
+    <h1>Find <span>Healthy</span> And <span>Favourite</span> <br> Foods Near You</h1>
+
+    <ul>
+        <li class="active">
+            <div class="icon-container"><i class="fa fa-tablet" aria-hidden="true"></i></div>
+            Order Food
+        </li>
+
+        <li>
+            <div class="icon-container"><i class="fa fa-h-square" aria-hidden="true"></i></div>
+            Order Supplements
+        </li>
+
+        <li>
+            <div class="icon-container"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+            Food Package
+        </li>
+
+        <li>
+            <div class="icon-container"><i class="fa fa-cog" aria-hidden="true"></i></div>
+            Gym Package
+        </li>
+
+        <li>
+            <div class="icon-container"><i class="fa fa-shopping-basket" aria-hidden="true"></i></div>
+            Order Grocery
+        </li>
+    </ul>
+</div>
+
+<div class="offers-card">
+    <app-offer-card [offerDetails]="offerDetails[0]"></app-offer-card>
+</div>
+
+<div class="restaurants-section">
+    <div class="header header-section">
+        <h5>RESTAURANTS</h5>
+        <button><i class="fa fa-sort-amount-asc" aria-hidden="true"></i> Sort By</button>
+    </div>
+
+    <div class="header sub-header">
+        <h5>TOP RATED NEAR YOU</h5>
+        <div class="see-all">
+            <h5>See All</h5>
+            <div class="icon-container">
+                <i class="fa fa-arrow-left" aria-hidden="true" style="color: grey;"></i>
+            </div>
+
+            <div class="icon-container">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="restaurants-cards-section">
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+    </div>
+</div>
+
+<div class="spot-light-section">
+    <div class="header">
+        <h5>IN THE SPOT LIGHT (FEATURED)</h5>
+        <div class="see-all">
+            <h5>See All</h5>
+            <div class="icon-container">
+                <i class="fa fa-arrow-left" aria-hidden="true" style="color: grey;"></i>
+            </div>
+
+            <div class="icon-container">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="restaurants-cards-section">
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+    </div>
+</div>
+
+<div class="quick-pick-section">
+
+    <div class="header">
+        <h5 style="font-weight: 700;">QUICK PICKS FOR YOU</h5>
+        <div class="see-all">
+            <h5>See All</h5>
+            <div class="icon-container">
+                <i class="fa fa-arrow-left" aria-hidden="true" style="color: grey;"></i>
+            </div>
+
+            <div class="icon-container">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button><i class="fa fa-motorcycle" aria-hidden="true"></i>Delivery</button>
+        <button><i class="fa fa-shopping-bag" aria-hidden="true"></i>Takeaway</button>
+    </div>
+    
+    <div class="restaurants-cards-section">
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+    </div>
+</div>
+
+<div class="all-store-section">
+    <h5>ALL STORE</h5>
+
+    <div class="restaurants-cards-section">
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
+    </div>
+</div>
+
+<!-- <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card> -->

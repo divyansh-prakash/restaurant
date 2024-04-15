@@ -1,0 +1,64 @@
+.food-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    max-width: 300px;
+    padding-block-end: 0.7rem;
+
+    >img {
+        width: 100%;
+        border-radius: 14px 14px 0 0;
+    }
+
+    .food-details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        padding-inline: 1rem;
+    }
+
+    p {
+        margin: 0;
+
+        .category {
+            background-color: lightgrey;
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 2vw;
+            font-size: 12px;
+        }
+
+        &:first-child {
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        &:nth-child(2) {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        &:last-child {
+            display: flex;
+            gap: 0.6rem;
+
+            span{
+                &:first-child {
+                    color: green;
+                    font-weight: 600;
+                    width: 45px;
+                    border-right: 1px solid lightgray;
+                }
+
+                &:nth-child(2) {
+                    width: 62px;
+                    border-right: 1px solid lightgray;
+                }
+            }
+        }
+    }
+}

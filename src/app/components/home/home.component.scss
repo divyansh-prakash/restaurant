@@ -1,0 +1,223 @@
+.hero-section {
+    height: 80vh;
+    background: url('../../../assets/images/home1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10rem;
+    color: white;
+    padding-inline: 4rem;
+
+    h1 {
+        span {
+            color: yellow;
+            font-weight: 700;
+        }
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+
+        li {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            padding-bottom: 10px;
+
+            &:first-child {
+                .icon-container {
+                    background: rgb(51, 189, 140);
+
+                    i {
+                        color: white;
+                    }
+                }
+            }
+
+            .icon-container {
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: rgb(94, 104, 101);
+
+                i {
+                    font-size: 30px;
+                    color: rgb(51, 189, 140);
+                }
+            }
+
+            &.active {
+                font-size: 20px;
+                font-weight: 600;
+                color: rgb(51, 189, 140);
+                border-bottom: 4px solid rgb(51, 189, 140);
+            }
+        }
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.offers-card {
+    margin-top: 3.5rem;
+}
+
+.restaurants-section {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 4rem;
+    margin-bottom: 2rem;
+
+    h5 {
+        font-weight: 700;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            width: 110px;
+            height: 40px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 7px;
+            border: none;
+            align-items: baseline;
+            padding-top: 9px;
+            font-size: 14px;
+
+            i {
+                color: rgb(51, 189, 140);
+                font-size: 17px;
+            }
+        }
+    }
+
+    .header-section {
+        margin-bottom: 1.5rem;
+    }
+
+    .sub-header {
+        margin-bottom: 1rem;
+    }
+}
+
+.spot-light-section {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 4rem;
+    background-color: #f7f7f7;
+    padding-block: 2rem;
+    gap: 1rem;
+
+    h5 {
+        font-weight: 700;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.quick-pick-section {
+    padding-inline: 4rem;
+    padding-top: 2.5rem;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .buttons {
+        margin-bottom: 2rem;
+        display: flex;
+        gap: 1rem;
+
+        button {
+            border-radius: 20px;
+            border: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-inline: 20px;
+            padding-block: 7px;
+            gap: 8px;
+            color: white;
+
+            &:first-child {
+                background-color: rgb(51, 189, 140);
+            }
+
+            &:last-child {
+                background-color: rgb(196, 242, 227);
+                color: black;
+
+                i {
+                    color: rgb(51, 189, 140);
+                }
+            }
+        }
+    }
+}
+
+.all-store-section {
+    margin-top: 2rem;
+
+    h5 {
+        padding-inline: 4rem;
+        padding-block: 1.3rem;
+        display: block;
+        background-color: lightgray;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+
+    .restaurants-cards-section {
+        padding-inline: 4rem;
+    }
+}
+
+.see-all {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    h5 {
+        color: rgb(51, 189, 140);
+        margin: 0;
+        font-weight: 500;
+    }
+}
+
+.icon-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+}
+
+.restaurants-cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}

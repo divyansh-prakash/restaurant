@@ -1,0 +1,14 @@
+<div class="food-card">
+    <img [src]="cardDetails.imgUrl">
+    <div class="food-details">
+        <p>{{cardDetails.name}}</p>
+        <p>
+            <span class="category" *ngFor="let category of cardDetails.categories"> {{category}} </span>
+        </p>
+        <p>
+            <span> <i class="fa fa-star" aria-hidden="true" style="color: green"></i> {{cardDetails.rating}}</span>
+            <span> {{cardDetails.distance}} </span>
+            <span> <i class="fa fa-motorcycle" aria-hidden="true" style="color: green"></i> {{cardDetails.deliveryCharge}} </span>
+        </p>
+    </div>
+</div>

@@ -1,0 +1,121 @@
+.footer-container {
+    height: 310px;
+    background-color: rgb(51, 189, 140);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 5px;
+        padding-block: 1rem;
+        border-top: 1px solid white;
+    }
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    height: 190px;
+    max-height: 200px;
+    margin-inline: 4rem;
+
+    .first-column {
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+
+        .logo {
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 7px;
+
+            i {
+                font-size: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .second-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1rem;
+
+        p {
+            margin: 0;
+
+            &:first-child {
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .forth-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1rem;
+
+        p {
+            margin: 0;
+        }
+
+        button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            border: none;
+            border-radius: 5px;
+
+            i {
+                font-size: 30px;
+                padding-left: 5px;
+            }
+
+            width: 138px;
+            background-color: black;
+            color: white;
+
+            span {
+                font-size: 10px;
+            }
+
+            .store-name {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.contact-info {
+    display: flex;
+    font-size: 13px;
+    gap: 5px;
+    align-items: baseline;
+    margin-bottom: 10px;
+
+    .icon-container {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        i {
+            font-size: 12px;
+        }
+    }
+}

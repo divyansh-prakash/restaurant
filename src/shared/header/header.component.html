@@ -1,0 +1,34 @@
+<div class="header-container">
+    <div class="logo">
+        <i class="fa fa-codiepie" aria-hidden="true"></i>
+        <span>Curve</span>
+    </div>
+
+    <div class="address">
+        <span>{{userInfo.address.city}}</span>
+        <span>{{userInfo.address.street}}</span>
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+    </div>
+
+    <div class="search">
+        <span class="fa fa-search"></span>
+        <input placeholder="Search">
+    </div>
+
+    <div class="profileIcon">
+        <i class="fa fa-user-o" aria-hidden="true"></i>
+    </div>
+
+    <div class="other-info">
+        <div class="icon-container">
+            <i class="fa fa-language" aria-hidden="true"></i>
+        </div>
+        <div class="icon-container">
+            <i class="fa fa-bell" aria-hidden="true"></i>
+        </div>
+        <button>
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            ({{userInfo.cartItems}}) Items
+        </button>
+    </div>
+</div>

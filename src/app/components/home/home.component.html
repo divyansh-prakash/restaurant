@@ -54,10 +54,9 @@
     </div>
 
     <div class="restaurants-cards-section">
-        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[1]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[2]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[3]"></app-restaurant-card>
+        <ng-container *ngFor="let restaurant of restaurantDetails; let i = index;">
+            <app-restaurant-card [cardDetails]="restaurantDetails[i]"></app-restaurant-card>
+        </ng-container>
     </div>
 </div>
 
@@ -77,10 +76,9 @@
     </div>
 
     <div class="restaurants-cards-section">
-        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[1]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[2]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[3]"></app-restaurant-card>
+        <ng-container *ngFor="let restaurant of restaurantDetails; let i = index;">
+            <app-restaurant-card [cardDetails]="restaurantDetails[i]"></app-restaurant-card>
+        </ng-container>
     </div>
 </div>
 
@@ -106,10 +104,9 @@
     </div>
 
     <div class="restaurants-cards-section">
-        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[1]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[2]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[3]"></app-restaurant-card>
+        <ng-container *ngFor="let restaurant of restaurantDetails; let i = index;">
+            <app-restaurant-card [cardDetails]="restaurantDetails[i]"></app-restaurant-card>
+        </ng-container>
     </div>
 </div>
 
@@ -117,17 +114,14 @@
     <h5>ALL STORE</h5>
 
     <div class="restaurants-cards-section">
-        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[1]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[2]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[3]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[1]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[2]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[3]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[0]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[1]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[2]"></app-restaurant-card>
-        <app-restaurant-card [cardDetails]="restaurantDetails[3]"></app-restaurant-card>
+        <ng-container *ngFor="let restaurant of restaurantDetails; let i = index;">
+            <app-restaurant-card [cardDetails]="restaurantDetails[i]"></app-restaurant-card>
+        </ng-container>
+        <ng-container *ngFor="let restaurant of restaurantDetails; let i = index;">
+            <app-restaurant-card [cardDetails]="restaurantDetails[i]"></app-restaurant-card>
+        </ng-container>
+        <ng-container *ngFor="let restaurant of restaurantDetails; let i = index;">
+            <app-restaurant-card [cardDetails]="restaurantDetails[i]"></app-restaurant-card>
+        </ng-container>
     </div>
 </div>

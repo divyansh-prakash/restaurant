@@ -8,20 +8,12 @@
         "imgUrl": "assets/images/burger.jpeg"
     },
     {
-        "name": "Burger King",
-        "rating": "4.1",
-        "categories": "North Indian,Fast Food",
-        "distance": "6.4 Kms",
-        "deliveryCharge": "KWD 30",
-        "imgUrl": "assets/images/burger.jpeg"
-    },
-    {
         "name": "Pizza Hut",
         "rating": "3.8",
         "categories": "Italian,Fast Food,Desert",
         "distance": "4.1 Kms",
         "deliveryCharge": "KWD 23",
-        "imgUrl": "assets/images/burger.jpeg"
+        "imgUrl": "assets/images/pizza.jpg"
     },
     {
         "name": "Dominos",
@@ -29,6 +21,14 @@
         "categories": "Italian,Fast Food",
         "distance": "4.9 Kms",
         "deliveryCharge": "KWD 30",
-        "imgUrl": "assets/images/burger.jpeg"
+        "imgUrl": "assets/images/pizza1.jpg"
+    },
+    {
+        "name": "Burger King",
+        "rating": "4.1",
+        "categories": "North Indian,Fast Food",
+        "distance": "6.4 Kms",
+        "deliveryCharge": "KWD 30",
+        "imgUrl": "assets/images/burger1.jpeg"
     }
 ]

@@ -3,10 +3,19 @@
     border-bottom: 1px solid white;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-inline: 4rem;
     padding-top: 20px;
     color: white;
     padding-bottom: 15px;
+
+    .left-container {
+        display: flex;
+    }
+
+    .right-container {
+        display: flex;
+    }
 
     .logo {
         i {
@@ -52,7 +61,7 @@
         position: relative;
         color: #aaa;
         font-size: 16px;
-        margin-left: 13rem;
+        // margin-left: 13rem;
     }
 
     .search input {

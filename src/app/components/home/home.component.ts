@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-home',
@@ -9,20 +10,18 @@ export class HomeComponent {
   restaurantDetails: Array<any> = [];
   offerDetails: Array<any> = [];
 
+  constructor(private http: HttpClient) { }
+
   ngOnInit() {
     this.getRestaurantDetails();
     this.getOfferDetails();
-    
   }
 
-  getRestaurantDetails(){
-    this.restaurantDetails.push({
-      name: "McDonald's",
-      rating: '4.3',
-      categories: ['North Indian', 'Fast Food', 'Deserts'],
-      distance: '3.9 Kms',
-      deliveryCharge: 'KWD 20',
-      imgUrl: 'assets/images/burger.jpeg'
+  getRestaurantDetails() {
+    this.http.get('../../../assets/restaurant-list.json').subscribe((respose: any) => {
+      if (respose){
+        this.restaurantDetails.push(...respose);
+      }
     })
   }
 

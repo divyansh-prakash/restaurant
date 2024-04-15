@@ -46,11 +46,11 @@
             display: flex;
             gap: 0.6rem;
 
-            span{
+            span {
                 &:first-child {
-                    color: green;
+                    color: rgb(51, 189, 140);
                     font-weight: 600;
-                    width: 45px;
+                    width: 49px;
                     border-right: 1px solid lightgray;
                 }
 

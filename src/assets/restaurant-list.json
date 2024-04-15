@@ -1,0 +1,34 @@
+[
+    {
+        "name": "McDonald's",
+        "rating": "4.3",
+        "categories": "North Indian,Fast Food,Deserts",
+        "distance": "3.9 Kms",
+        "deliveryCharge": "KWD 20",
+        "imgUrl": "assets/images/burger.jpeg"
+    },
+    {
+        "name": "Burger King",
+        "rating": "4.1",
+        "categories": "North Indian,Fast Food",
+        "distance": "6.4 Kms",
+        "deliveryCharge": "KWD 30",
+        "imgUrl": "assets/images/burger.jpeg"
+    },
+    {
+        "name": "Pizza Hut",
+        "rating": "3.8",
+        "categories": "Italian,Fast Food,Desert",
+        "distance": "4.1 Kms",
+        "deliveryCharge": "KWD 23",
+        "imgUrl": "assets/images/burger.jpeg"
+    },
+    {
+        "name": "Dominos",
+        "rating": "4.4",
+        "categories": "Italian,Fast Food",
+        "distance": "4.9 Kms",
+        "deliveryCharge": "KWD 30",
+        "imgUrl": "assets/images/burger.jpeg"
+    }
+]
